@@ -524,10 +524,6 @@ img {
   margin-left: 56px;
 }
 
-.location__maps {
-  padding: 10px;
-}
-
 .box__link--maps:hover {
   background-color: #0ac004;
   color: #ffffff;

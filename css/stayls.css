@@ -250,7 +250,7 @@ img {
 
 .btn, .btn2 {
   display: flex;
-  margin-right: 36px;
+  /* margin-right: 36px; */
   flex-direction: column;
 }
 

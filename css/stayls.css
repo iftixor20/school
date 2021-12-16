@@ -254,6 +254,10 @@ img {
   flex-direction: column;
 }
 
+.section {
+  margin-bottom: 50px;
+}
+
 .wrapper {
   color: #000;
   background-image: url("../img/teacher.jpg");

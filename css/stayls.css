@@ -564,6 +564,12 @@ img {
   color: #0407c0;
 }
 
+.modal__btn {
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: 416px;
+}
+
 .adres__link--maps {
   margin-bottom: 20px;
 }
@@ -683,13 +689,14 @@ img {
 
   .location__title {
     font-size: 20px;
+    margin-top: 55px;
     padding-left: 18px;
   }
 
   .section__left--text {
-    max-width: 250px;
-    font-size: 10px;
-    padding: 37px;
+    max-width: 3000px;
+    font-size: 14px;
+    padding: 50px;
   }
 
   .navbar__main {
@@ -716,6 +723,7 @@ img {
     height: 240px;
     border-radius: 25px;
   }
+
 
   .closk {
     height: 100%;

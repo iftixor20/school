@@ -32,3 +32,16 @@ var elOrderModalActiveSection = document.querySelector(".order-modal--active");
 elOrderModal.addEventListener("click", function () {
     elOrderModal.classList.remove("order-modal--active");
 })
+
+
+// // carusel
+// document.addEventListener('DOMContentLoaded', function() {
+//   var elems = document.querySelectorAll('.carousel');
+//   var instances = M.Carousel.init(elems, options);
+// });
+
+// // Or with jQuery
+
+// $(document).ready(function(){
+//   $('.carousel').carousel();
+// });

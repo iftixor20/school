@@ -81,6 +81,7 @@ img {
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #ffffff !important;
 }
 
 .header-section {
@@ -292,6 +293,10 @@ img {
   margin-bottom: 60px;
 }
 
+.techer__section {
+  margin-bottom: 60px;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -439,6 +444,17 @@ img {
 
 .navbar__left--text {
   font-size: 14px;
+}
+
+.navbar__text {
+  width: 800px;
+  color: #000000;
+  font-size: 22px;
+  margin: 0 auto;
+  font-weight: 500;
+  align-items: center;
+  line-height: 24px;
+  text-align: center;
 }
 
 
@@ -612,6 +628,154 @@ img {
   font-size: 26px;
 }
 
+/* dsdsssssssssssssssssssssssssssss */
+h1 {
+  color: white;
+  text-align: center;
+  /* margin-top: 1em; */
+  margin-left: 0 !important;
+}
+
+.container {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+}
+
+.card__carusel {
+  margin-bottom: 60px;
+}
+
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 350px;
+  --carousel-min-width: 600px;
+  z-index: 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card__carusel {
+    margin-bottom: 60px;
+  }
+
+  .card-carousel {
+    --card-width: 60%;
+    --card-max-width: 240px;
+    --card-height: 280px;
+    --carousel-min-width: 400px;
+    z-index: 1;
+    /* margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2) */
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .2s ease;
+}
+
+.card-carousel .card {
+  background: #ffffff;
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  color: rgba(0,0,0,.5);
+  transition: inherit;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em;
+  filter: brightness(.9);
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.highlight {
+  filter: brightness(1)
+}
+
+
+.card:nth-of-type(1) .image-container {
+    background-image: url("../img/o\'qtiuvchi.JPG");
+}
+
+.card:nth-of-type(2) .image-container {
+  background-image: url("../img/o\'qtiuvchi2.jpg")
+}
+
+.card:nth-of-type(3) .image-container {
+  background-image: url("../img/o\'qtivchi3.jpg")
+}
+.card:nth-of-type(4) .image-container {
+  background-image: url("../img/o\'qtuvchi4.JPG")
+}
+.card:nth-of-type(5) .image-container {
+  background-image: url("../img/o\'qtiuvchi5.jpg")
+}
+.card:nth-of-type(6) .image-container {
+  background-image: url("../img/o\'qtiuvchi6.jpg")
+}
+.card:nth-of-type(7) .image-container {
+  background-image: url("../img/o\'qtiuvchi7.JPG")
+}
+.card:nth-of-type(8) .image-container {
+  background-image: url("../img/o\'qtiuvchi8.jpg")
+}
+
+
+
+.image-container {
+  width: 8em;
+  height: 8em;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 2em;
+  border-radius: 100%;
+  padding: 1em;
+  -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+
+}
+
+.image-container::after {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: solid 3px rgba(0,0,0,.1);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(-10% - 3px);
+  left: calc(-10% - 3px);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  border-radius: .2em;
+  display: inline-block;
+  transform: translateX(calc((100vw - 100%) / 2))
+}
+
+
+/* ffffffffffffffffffffffffffff */
+
+
+
 /* Footer */
 
 .footer__tolbar {
@@ -705,6 +869,17 @@ img {
     max-width: 3000px;
     font-size: 14px;
     padding: 50px;
+  }
+
+  .navbar__text {
+    width: 250px;
+    color: #000000;
+    font-size: 17px;
+    margin: 0 auto;
+    font-weight: 500;
+    align-items: center;
+    line-height: 26px;
+    text-align: center;
   }
 
   .navbar__main {

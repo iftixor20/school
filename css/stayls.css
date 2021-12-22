@@ -722,7 +722,7 @@ h1 {
 }
 
 .card:nth-of-type(2) .image-container {
-  background-image: url("../img/o\'qtiuvchi2.jpg")
+  background-image: url("../img/o\'qtiuvchi6.jpg")
 }
 
 .card:nth-of-type(3) .image-container {
@@ -938,6 +938,10 @@ h2 {
     margin: 0 auto;
   }
 
+  .galarey-text {
+    margin-left: -22px;
+  }
+
   .location__maps--title {
     font-size: 26px;
   }
@@ -984,7 +988,7 @@ h2 {
   .card-carousel {
     --card-width: 40%;
     --card-max-width: 200px;
-    --card-height: 270px;
+    --card-height: 295px;
     --carousel-min-width: 280px;
     z-index: 1;
     /* margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2) */

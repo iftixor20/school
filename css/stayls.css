@@ -180,6 +180,7 @@ img {
   .header-logo__img {
     width: 124px;
     height: 59px;
+    padding-bottom: 12px;
     margin-left: 15px;
     object-fit: cover;
   }
@@ -187,6 +188,7 @@ img {
   .header-section {
     align-items: center;
     display: flex;
+    padding-top: 12px;
   }
 
   .header-button {
@@ -253,6 +255,15 @@ img {
   display: flex;
   /* margin-right: 36px; */
   flex-direction: column;
+  width: 190px;
+  margin-left: 5px !important;
+  margin: 0;
+  text-decoration: none;
+  background-color: #0407c0;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 12px;
 }
 
 .section {
@@ -649,6 +660,13 @@ h1 {
   overflow: hidden;
   padding: 20px;
   margin-top: 2em;
+}
+
+.card__carusel--title {
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .card__carusel {
